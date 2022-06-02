@@ -181,6 +181,8 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary_text_color_theme-dark);
+    width: 270px;
+    height: 75px;
 }
 .hang_list {
     display: flex;
@@ -378,6 +380,19 @@ img {
     border-left: 1px solid rgba(238, 238, 238, 1);
     border-right: 1px solid rgba(238, 238, 238, 1);
     border-bottom: 1px solid rgba(238, 238, 238, 1);
+}
+/* ========================================CLIENTS======================================= */
+.clients_list {
+    display: flex;
+}
+.client_item {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
 }
 /* ========================================FOOTER======================================== */
 .footer {
