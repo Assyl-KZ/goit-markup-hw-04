@@ -42,12 +42,18 @@
           </ul>
         </nav>
         <ul class="site_nav_contact list header_container">
-          <li>
+          <li class="mail_link">
+            <svg class="mail_icon" width="16" height="12">
+              <use href="./images/icons.svg#mail"></use>
+            </svg>
             <a class="contact link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="phone_link">
+            <svg class="phone_icon" width="10" height="16">
+              <use href="./images/icons.svg#phone"></use>
+            </svg>
             <a class="contact phone link" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
@@ -70,7 +76,8 @@
               <button class="button_item" type="button">Приложения</button>
             </li>
             <li class="button_list">
-              <button class="button_item" type="button">Дизайн</button></li>
+              <button class="button_item" type="button">Дизайн</button>
+            </li>
             <li class="button_list">
               <button class="button_item" type="button">Маркетинг</button>
             </li>
@@ -86,9 +93,9 @@
                   height="294"
                 />
                 <div class="project_detail">
-                <h2 class="project_title">Технокряк</h2>
-                <p class="project_description">Веб-сайт</p>
-              </div>
+                  <h2 class="project_title">Технокряк</h2>
+                  <p class="project_description">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="project_item">
@@ -100,11 +107,11 @@
                   height="294"
                 />
                 <div class="project_detail">
-                <h2 class="project_title">
-                  Постер <span lang="en">Orlean vs Golden Star</span>
-                </h2>
-                <p class="project_description">Дизайн</p>
-              </div>
+                  <h2 class="project_title">
+                    Постер <span lang="en">Orlean vs Golden Star</span>
+                  </h2>
+                  <p class="project_description">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="project_item">
@@ -116,11 +123,11 @@
                   height="294"
                 />
                 <div class="project_detail">
-                <h2 class="project_title">
-                  Ресторан <span lang="en">Seafood</span>
-                </h2>
-                <p class="project_description">Приложение</p>
-              </div>
+                  <h2 class="project_title">
+                    Ресторан <span lang="en">Seafood</span>
+                  </h2>
+                  <p class="project_description">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="project_item">
@@ -132,11 +139,11 @@
                   height="294"
                 />
                 <div class="project_detail">
-                <h2 class="project_title">
-                  Проект <span lang="en">Prime</span>
-                </h2>
-                <p class="project_description">Маркетинг</p>
-              </div>
+                  <h2 class="project_title">
+                    Проект <span lang="en">Prime</span>
+                  </h2>
+                  <p class="project_description">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="project_item">
@@ -148,11 +155,11 @@
                   height="294"
                 />
                 <div class="project_detail">
-                <h2 class="project_title">
-                  Проект <span lang="en">Boxes</span>
-                </h2>
-                <p class="project_description">Приложение</p>
-              </div>
+                  <h2 class="project_title">
+                    Проект <span lang="en">Boxes</span>
+                  </h2>
+                  <p class="project_description">Приложение</p>
+                </div>
               </a>
             </li>
             <li class="project_item">
@@ -163,12 +170,12 @@
                   width="370"
                   height="294"
                 />
-                 <div class="project_detail">
-                <h2 class="project_title" lang="en">
-                  Inspiration has no Borders
-                </h2>
-                <p class="project_description">Веб-сайт</p>
-              </div>
+                <div class="project_detail">
+                  <h2 class="project_title" lang="en">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="project_description">Веб-сайт</p>
+                </div>
               </a>
             </li>
             <li class="project_item">
@@ -180,11 +187,11 @@
                   height="294"
                 />
                 <div class="project_detail">
-                <h2 class="project_title">
-                  Издание <span lang="en">Limited Edition</span>
-                </h2>
-                <p class="project_description">Дизайн</p>
-              </div>
+                  <h2 class="project_title">
+                    Издание <span lang="en">Limited Edition</span>
+                  </h2>
+                  <p class="project_description">Дизайн</p>
+                </div>
               </a>
             </li>
             <li class="project_item">
@@ -196,9 +203,11 @@
                   height="294"
                 />
                 <div class="project_detail">
-                <h2 class="project_title">Проект <span lang="en">LAB</span></h2>
-                <p class="project_description">Маркетинг</p>
-              </div>
+                  <h2 class="project_title">
+                    Проект <span lang="en">LAB</span>
+                  </h2>
+                  <p class="project_description">Маркетинг</p>
+                </div>
               </a>
             </li>
             <li class="project_item">
@@ -210,9 +219,9 @@
                   height="294"
                 />
                 <div class="project_detail">
-                <h2 class="project_title" lang="en">Growing Business</h2>
-                <p class="project_description">Приложение</p>
-              </div>
+                  <h2 class="project_title" lang="en">Growing Business</h2>
+                  <p class="project_description">Приложение</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -221,36 +230,71 @@
     </main>
     <!-------------------------------------------------- FOOTER -------------------------------------------->
     <footer class="footer">
-      <div class="container">
-        <a class="site_nav_logo_img link" href="#logo" lang="en">
-          <span class="logo_web">Web</span
-          ><span class="logo_studio">Studio</span></a
-        >
-        <address class="address">
-          <ul class="list">
-            <li class="address_detail">
-              <a
-                class="detai_adress list"
-                href="https://goo.gl/maps/JiNANyfJPE1kAV9W7"
-                target="blank"
-                rel="noopener noreferrer"
-                >г. Киев, пр-т Леси Украинки, 26
+      <div class="container footer_container">
+        <div class="footer_contacts">
+          <a class="site_nav_logo_img logo_footer link" href="#logo" lang="en">
+            <span class="logo_web">Web</span
+            ><span class="logo_studio">Studio</span></a
+          >
+          <address class="address">
+            <ul class="list">
+              <li class="address_detail">
+                <a
+                  class="detai_adress list"
+                  href="https://goo.gl/maps/JiNANyfJPE1kAV9W7"
+                  target="blank"
+                  rel="noopener noreferrer"
+                  >г. Киев, пр-т Леси Украинки, 26
+                </a>
+              </li>
+              <li class="address_detail">
+                <a
+                  class="contact link contact_footer"
+                  href="mailto:info@example.com"
+                  >info@example.com
+                </a>
+              </li>
+              <li class="address_detail">
+                <a class="contact link contact_footer" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="social_list_container">
+          <h3 class="social_list_footer_title">присоединяйтесь</h3>
+          <ul class="list social_list_footer">
+            <li class="social_list_item_footer">
+              <a href="" class="social_link_footer">
+                <svg class="social_icon_footer" width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
               </a>
             </li>
-            <li class="address_detail">
-              <a
-                class="contact link contact_footer"
-                href="mailto:info@example.com"
-                >info@example.com
+            <li class="social_list_item_footer">
+              <a href="" class="social_link_footer">
+                <svg class="social_icon_footer" width="20" height="20">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
               </a>
             </li>
-            <li class="address_detail">
-              <a class="contact link contact_footer" href="tel:+380991111111"
-                >+38 099 111 11 11</a
-              >
+            <li class="social_list_item_footer">
+              <a href="" class="social_link_footer">
+                <svg class="social_icon_footer" width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social_list_item_footer">
+              <a href="" class="social_link_footer">
+                <svg class="social_icon_footer" width="20" height="20">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
